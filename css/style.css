@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1d1d23;
+}
+:root{
+    --common_font:'Roboto Slab', serif;
+    --white:#fff;
+    --black:#000;
+    --common_color:#e58f00;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+/* nav bar start */
+header{
+    background: url(../images/banner_background.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .overlay{
+    padding-top: 30px;
+    padding-bottom: 120px;
+    background: rgba(0, 0, 0, 0.9);
+}
+nav button span{
+    color:var(--white);
+}
+.navbar-nav .nav-link{
+    color: var(--white);
+    font-family: var(--common_font);
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.navbar-nav .nav-link:hover{
+    color: var(--common_color);
+}
+
+/* nav bar end */
+
+/* banner part start */
+
+#banner{
+    padding-top: 30px;
+}
+#banner .banner_info{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+#banner .banner_info h1{
+    color: var(--common_color);
+    font-family: var(--common_font);
+    font-size: 70px;
+    line-height: 110%;
+    padding-bottom: 25px;
+
+}
+#banner .banner_info p{
+    color: var(--white);
+    font-family: var(--common_font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    padding-right: 250px;
+    padding-bottom: 25px;
+
+}
+
+#banner .banner_info a{
+    color: var(--black);
+    font-weight: 600;
+    font-family: var(--common_font);
+    font-size: 20px;
+    padding: 15px 35px;
+    background: var(--white);
+    border-radius: 10px;
+}
+#banner .banner_info a:hover{
+    color: var(--white);
+    background: var(--common_color);
+}
+
+    /* banner part end */
+
+    /* about part start */
+
+#about{
+    padding-top: 100px;
+}
+
+#about .about-info{
+    padding: 100px 0 0 30px;
+}
+#about .about-info h2{
+    color: var(--white);
+    font-size: 40px;
+    font-family: var(--common_font);
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+#about .about-info p{
+    color: var(--white);
+    font-size: 18px;
+    font-family: var(--common_font);
+    font-weight: 400;
+    padding-right: 200px;
+}
+/* about part end */
+
+/* quality part start */
+
+#quality{
+    padding-top: 100px;
+}
+#quality .overlay{
+    background: url(../images/shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1700px;
+    position: relative;
+}
+.quality_info{
+    padding-top: 200px;
+    padding-left: 100px;
+    width: 500px;
+}
+.quality_info .q_info h2{
+    color: var(--white);
+    font-family: var(--common_font);
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.quality_info .q_info p{
+    color: var(--white);
+    font-family: var(--common_font);
+    font-size: 20px;
+    font-weight: 400;
+    padding-right:50px ;
+}
+.quality_info .image_1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 370px;
+}
+.quality_info .image_2{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 400px;
+}
+.quality_info .image_3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 800px;
+}
+
+/* quality part end */
+
+/* gallery part start */
+
+#gallery{
+    padding-top: 100px;
+}
+#gallery .gllery_headding h2{
+    color: var(--white);
+    text-align: center;
+    font-family: var(--common_font);
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+#gallery .gallery_image{
+    padding-bottom: 30px;
+}
+
+/* gallery part end */
+
+/* enjoy part start */
+
+#enjoy .bg_img{
+    position: relative;
+}
+#enjoy .enjoy_info{
+    height: 305px;
+    width: 522px;
+    text-align: center;
+    padding: 0px 70px;
+    background: rgba(20, 20, 27, 0.7) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 8px solid var(--common_color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+#enjoy .enjoy_info h3{
+    color: var(--white);
+    font-family: var(--common_font);
+    font-weight: 600;
+    font-size: 30px;
+}
+#enjoy .enjoy_info p{
+    color: var(--white);
+    font-family: var(--common_font);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* enjoy part end */
